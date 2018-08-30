@@ -14,10 +14,10 @@
       class="form-control"
       v-model="password"
     >
-    <br><br>
+    <br>
     <button class="btn btn-primary" @click="signIn">Sign In</button>
   </div>
-  <br><br>
+  <br>
   <router-link to="/signup">Not a user? Sign up</router-link>
   <br>
   <p>{{error.message}}</p>

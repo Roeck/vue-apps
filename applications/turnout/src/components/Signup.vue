@@ -14,14 +14,14 @@
       class="form-control"
       v-model="password"
     >
-    <br><br>
+    <br>
     <button class="btn btn-primary" @click="signUp">Sign Up</button>
   </div>
-  <br><br>
+  <br>
   <router-link to="/signin">Already a user? Sign in</router-link>
   <br>
   <p>{{error.message}}</p>
-  </div>
+</div>
 </template>
 
 <script>

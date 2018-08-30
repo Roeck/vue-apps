@@ -2,6 +2,9 @@
   <div class="">
     <h3>Events Dashboard</h3>
     <button class="btn btn-danger btn-sm signout-btn" @click="signOut">Sign Out</button>
+    <hr>
+    <AddEvent />
+    <hr>
     {{$store.state}}
   </div>
 </template>
